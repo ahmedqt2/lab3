@@ -5,6 +5,7 @@ export class Student {
       writable: false,
       configurable: false,
       enumerable: true,
+      
     });
     this.name = name;
     this.courses = courses.map((course) => ({ ...course }));
