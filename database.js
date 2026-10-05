@@ -5,7 +5,7 @@ const students = [
 ];
 
 function fetchStudents (callback) {
-    console.log('Fetching students from the database...');
+    console.log('Fetching students ...');
     setTimeout(() => {
         callback(students);
     },2000);
