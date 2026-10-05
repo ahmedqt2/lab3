@@ -3,9 +3,7 @@ export class Student {
     Object.defineProperty(this, "id", {
       value: id,
       writable: false,
-      configurable: false,
-      enumerable: true,
-      
+      configurable: false,      
     });
     this.name = name;
     this.courses = courses.map((course) => ({ ...course }));
